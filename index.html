@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakers</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<section class="first active ">
+    <header>
+
+      <video src="/banner4.mp4" muted loop autoplay></video>
+      <h2 class="logo">BAKERS</h2>
+      <div class="tog"></div>
+    </header>
+    <div class="shadow"></div>
+    <div class="content">
+      <h2>Best Cakes And Breads </h2> 
+      <h3>Taste and Forget Stress</h3>
+      <p>Best Cake with almost every variety around the globe.
+        Ice-creams,Breads,Milkshakes,puddings name it,
+        if it is not on menu request it at our social accounts.
+      </p>
+      <a href="#">Buy Now</a>
+    </div>
+  </div  >
+    <ul class="media">
+      <li><a href="#"><i class="fab fa-facebook "></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+</section>
+
+  
+    <div class="menu">
+      <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Dishes</a></li>
+      <li><a href="#">Deserts</a></li>
+      <li><a href="#">Ice-creams</a></li>
+    </ul>
+    </div>
+  </body>
+  <script>
+     const menu = document.querySelector('.tog');
+    const first = document.querySelector('.first');
+    menu.addEventListener('click',()=>{
+      menu.classList.toggle('active')
+      first.classList.toggle('active')
+    })
+  </script>
+</html>
